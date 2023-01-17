@@ -1,0 +1,39 @@
+
+
+
+h1 {
+    color: red ;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+p {
+    text-decoration: underline; 
+    text-align: center;
+    color: green;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+body {
+    color: blue;
+    font-size: 16px;
+}
+
+li {
+line-height: 30px;
+
+}
+
+#amarelo { 
+    color: yellow;
+}
+
+#vermelho {
+    color: red;
+}
+ 
+#marrom { 
+    color:maroon;
+}
