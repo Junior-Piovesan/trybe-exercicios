@@ -1,20 +1,39 @@
-h1 {
+
+div:hover {
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+.primaria, .secundaria, .complementar, .escura, .clara {
   text-align: center;
+  padding: 2px;
+  font-family:monospace;
+  
 }
 
-li {
-  width: 90px;
+.primaria {
+  color: red;
+  width: 120px;
 }
 
-li:hover {
-  background-color: blue;
-  transition: 0.5;
+.secundaria {
+  color: yellowgreen;
+  width: 130px;
 }
 
-li:active {
-  font-family: monospace;
+.complementar {
+  font-size: 2em;
+  color: rgb(139, 118, 0);
+  width: 230px;
 }
 
-ul, ol {
-  list-style: none;
+.escura {
+
+  color: darkblue;
+  width: 107px;
+}
+
+.clara {
+  color: aqua;
+  width: 100px;
 }
