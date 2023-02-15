@@ -1,0 +1,194 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+ /* html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  header{
+    display: flex;
+    justify-content: center;
+  }
+
+  article {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  h1 {
+    font-size: 1.7em;
+  }
+  h2 {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  img {
+      max-width: 40%;
+      
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  figure {
+      display: flex;
+      margin: 15px;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  p {
+    font-size: 1.2em;
+    
+  }
+
+  figcaption {
+    font-size: 1.0em;
+  }← ─  M  */
+
+@media screen and (min-width: 768px) {
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+  background-color:lightslategrey
+}
+
+  header{
+    display: flex;
+    justify-content: center;
+  }
+
+  article {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  h1 {
+    font-size: 1.7em;
+  }
+  h2 {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  img {
+      max-width: 50%;
+      
+  }
+
+  section {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  figure {
+      display: flex;
+      margin: 15px;
+      flex-direction: column;
+      align-items:center;
+      padding: 1%;
+      flex-basis:45% ;
+  }
+
+  p {
+    font-size: 1.2em;
+    
+  }
+
+  figcaption {
+    margin: 10px;
+    font-size: 1.2em;
+  }← ─  M 
+
+}
+
+@media screen and (max-width: 768px) {
+
+    html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+  background-color:lightgray
+}
+
+  header{
+    display: flex;
+    justify-content: center;
+  }
+
+  article {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  h1 {
+    font-size: 1.7em;
+  }
+  h2 {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  img {
+      max-width: 50%;
+      
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+  }
+
+  figure {
+      display: flex;
+      margin: 15px;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  p {
+    font-size: 1.2em;
+    
+  }
+
+  figcaption {
+    margin: 10px;
+    font-size: 1.2em;
+  }← ─  M 
+}
