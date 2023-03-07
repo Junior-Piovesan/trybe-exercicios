@@ -34,6 +34,5 @@ const people = [
   const filterPeople = (ano, nacionalidade) => people
     .filter((nascido) => nascido.bornIn >= ano && nascido.nationality
       .includes(nacionalidade));
- 
 
   console.log(filterPeople(1901, 'Australian'));
